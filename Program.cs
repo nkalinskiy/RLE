@@ -51,14 +51,6 @@ namespace RLE
 
         static void Main(string[] args)
 		{
-            byte[] source = File.ReadAllBytes(@"C:\Users\Nick\Downloads\04_The_Devil_In_I.wav");
-            Console.WriteLine("Source length: " + source.Length);
-            byte[] compressed = RLECompress(source);
-            Console.WriteLine("Compressed length: " + compressed.Length);
-            byte[] decompressed = RLEDecompress(compressed);
-            Console.WriteLine("Decompressed length: " + decompressed.Length);
-            Console.WriteLine("Herman pidor");
-            Console.Read();
-        }
+		}
 	}
 }
